@@ -1,0 +1,190 @@
+/*
+Theme Name: Padma Bridge
+Author: Mariyam Suchi
+Author URI: https://github.com/mariyam45
+Description: This is the website theme of Padma Bridge.
+Version: 1.0
+*/
+/* =================================== */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.cont {
+  width: 66%;
+  /* background: #e3dada; */
+  margin: 0 auto;
+}
+/* ----------- */
+.slider-cont img {
+  height: 400px !important;
+}
+/* ------  */
+.logo1 {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+}
+.logo2 {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+}
+/* .menu_content {
+  : 8px 3px !important;
+} */
+.menus {
+  line-height: 8px !important;
+}
+.menus li {
+  padding-top: 8px !important;
+}
+.menus ul {
+  height: 60px !important;
+}
+
+.menus a {
+  margin: 0px 6px;
+}
+.menus li:hover {
+  background: #344807;
+  color: white;
+}
+.menus li:hover a {
+  color: white;
+}
+.menus ul li:first-child {
+  background: #344807;
+  color: white;
+}
+.txt-sec {
+  width: 700px !important;
+  font-size: 17px;
+  margin: 0 auto !important;
+  color: #616161;
+}
+
+/* cards */
+.col_part {
+  background: #ebebeb8e !important;
+  margin-top: 50px !important;
+}
+.col_part:hover {
+  background: #ffffff !important;
+}
+
+.card_text a {
+  text-decoration: none;
+}
+.card_text p {
+  color: #777;
+}
+
+.card_text h5 {
+  color: #363636 !important;
+}
+.card_text button {
+  background: #e6e6e6c9;
+  border: none;
+  padding: 2px 6px;
+  padding: 0;
+}
+.card_text button a {
+  color: #777;
+  margin: 3px 7px;
+}
+.plus {
+  padding: 0px 4px;
+  margin: 0;
+  background: #cfcfcf;
+}
+.img_part i {
+  font-size: 45px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  z-index: 3;
+}
+.img_part img {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.photo-card {
+  padding-top: 30px;
+}
+.title {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  /* column-gap: 1rem; */
+}
+
+.title::before,
+.title::after {
+  content: "";
+  height: 1px;
+  background: #32ff32;
+  display: block;
+}
+.title-cont p {
+  font-size: 18px;
+  color: #7a7a7a;
+}
+.card-text {
+  font-style: italic;
+  color: #7a7a7a;
+}
+
+footer {
+  background: #3a3a3a;
+  color: rgb(177, 177, 177);
+  font-size: 13px;
+}
+footer img {
+  margin-right: 6px;
+  height: 27px;
+  width: 32px;
+}
+footer li:first-child img {
+  width: 38px;
+  height: 28px;
+}
+footer .f2 li {
+  margin-bottom: 6px;
+  list-style-type: circle;
+}
+.f2 {
+  padding-left: 200px !important;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(177, 177, 177);
+}
+.ending {
+  height: 50px;
+
+  background: #303030;
+  /* margin: auto 0; */
+  padding: 15px 0;
+}
+.ending a {
+  color: #777;
+}
+/* -------------------------wp */
+.sliders img {
+  display: block !important;
+  width: 100% !important;
+  height: 400px !important;
+}
